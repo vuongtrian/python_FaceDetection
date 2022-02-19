@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{%block bodyblock %}
+<div class="container">
+    <div align="center">
+        <img src="{{ url_for('static', filename='images/temp-1.jpg') }}" alt="" width="700" height="300">
+    </div>
+    <div align="center">
+        <h3 class="text-primary">Chúng ta hãy cùng khám phá sự kỳ diệu của công nghệ. Hãy chọn tấm hình có khuôn mặt rõ
+            ràng và chúng tôi sẽ
+            cho bạn biết đây là nam hoặc nữ</h3>
+        <h3 class="text-primary">Trong trường hợp ứng dụng không nhận diện được, thì chỉ có bạn mới biết giới tính thật
+            của bạn!</h3>
+    </div>
+    <div align="center">
+        <img src="{{ url_for('static', filename='images/smile.jpg') }}" alt="" width="100" height="100">
+    </div>
+</div>
+{% endblock  %}

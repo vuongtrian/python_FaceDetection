@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+<div class="container" align="center">
+    <br>
+    <h3 class="content text-primary">Quy Trình Thực Hiện</h3>
+    <br>
+    <img src="{{ url_for('static',filename='images/quytrinh.jpg') }}" alt="" width="600" height="80">
+    <br>
+    <div align="center">
+        <a class="btn btn-outline-primary" href="{{ url_for('gender') }}">Bắt Đầu</a>
+    </div>
+
+</div>
+
+
+{% endblock  %}
